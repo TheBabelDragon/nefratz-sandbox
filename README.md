@@ -2,11 +2,31 @@
 
 **A living Hebrew generative art organism for Pythonista on iPhone.**
 
+![Nefratz Sandbox - Vortex Cluster](https://raw.githubusercontent.com/TheBabelDragon/nefratz-sandbox/main/screenshots/screenshot1.png)
+
 ## What is this?
 
 Nefratz Sandbox is an interactive particle system where Hebrew letters form orbiting "atoms" that respond to touch, fields (vortex, gravity, turbulence, wave), and rewriting commands.
 
 It's a digital golem / living poem — part physics toy, part meditation tool, part esoteric art.
+
+## Gallery
+
+**Vortex Mode**
+
+![Screenshot 1](https://raw.githubusercontent.com/TheBabelDragon/nefratz-sandbox/main/screenshots/screenshot1.png)
+
+**Ring Formation**
+
+![Screenshot 2](https://raw.githubusercontent.com/TheBabelDragon/nefratz-sandbox/main/screenshots/screenshot2.png)
+
+**Complex Dream State**
+
+![Screenshot 3](https://raw.githubusercontent.com/TheBabelDragon/nefratz-sandbox/main/screenshots/screenshot3.png)
+
+## Why Hebrew?
+
+The Hebrew letters give it an ancient, mystical feel — like watching a digital Kabbalistic sephirot or a living Torah scroll evolve in real time. Each rewrite becomes a new incantation.
 
 ## Features
 
@@ -15,7 +35,7 @@ It's a digital golem / living poem — part physics toy, part meditation tool, p
 - **Multiple force fields** (Vortex, Gravity, Turbulence, Wave)
 - **Touch dragging** and real-time interaction
 - **Rewrite engine** — type text and watch it transform into new Hebrew constellations
-- **Organism mood & energy** system
+- **Organism mood & energy** system that affects visuals
 - Optimized for iPhone in Pythonista
 
 ## How to Run
@@ -24,9 +44,7 @@ It's a digital golem / living poem — part physics toy, part meditation tool, p
 2. Copy the content of `nefratz_sandbox_v15.py`
 3. Paste into a new file and run
 
-Or just open the raw file directly in Pythonista:
-
-[nefratz_sandbox_v15.py](https://raw.githubusercontent.com/TheBabelDragon/nefratz-sandbox/main/nefratz_sandbox_v15.py)
+**Direct link:** [nefratz_sandbox_v15.py](https://raw.githubusercontent.com/TheBabelDragon/nefratz-sandbox/main/nefratz_sandbox_v15.py)
 
 ## Controls
 
@@ -36,13 +54,17 @@ Or just open the raw file directly in Pythonista:
 - **Spawn**: Add new random atoms
 - **Mutate**: Randomly change some letters
 
+## Performance Note
+
+Works best with MAX_ATOMS around 150-220. Older devices may experience lower FPS at maximum settings.
+
 ## Tech
 
 - Built with Pythonista's `scene` and `ui` modules
 - Spatial hashing for efficient bond detection
-- Golden ratio spiral placement
+- Golden ratio spiral placement for natural distribution
 
 ---
 
-Made with chaos & love by **TheBabelDragon**
+Made with chaos & love by **TheBabelDragon** 🐉
 
